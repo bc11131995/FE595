@@ -1,0 +1,10 @@
+#Create a Python application that uses the NumPy and MatPlotLib libraries to create and display a graph of one period of the Sine and Cosine functions.
+
+import matplotlib.pyplot as plt
+import numpy as np
+%matplotlib inline    
+x = np.arange(0,2*np.pi,0.1)
+y = np.sin(x)
+z = np.cos(x)
+plt.plot(x,y,x,z)
+plt.show()
